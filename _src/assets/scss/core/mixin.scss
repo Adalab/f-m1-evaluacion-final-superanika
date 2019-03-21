@@ -19,3 +19,19 @@
     font-weight: bold;
     text-align: center;
 }
+@mixin link-style {
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    color: $color-white;
+    text-transform: uppercase;
+    text-align: center;
+    line-height: 30px;
+    list-style: none;
+}
+@mixin footer-text {
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;
+    line-height: 30px;
+    color: $color-white;
+    text-align: center;
+}
