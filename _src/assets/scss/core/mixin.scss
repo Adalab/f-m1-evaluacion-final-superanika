@@ -10,3 +10,11 @@
     font-size: 18px;
     line-height: 30px;
 }
+
+@mixin subtitle-style {
+    font-family: "Roboto Slab", sans-serif;
+    font-size: 18px;
+    line-height: 30px;
+    font-weight: bold;
+    text-align: center;
+}
