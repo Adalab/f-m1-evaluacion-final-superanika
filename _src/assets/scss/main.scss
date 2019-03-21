@@ -1,6 +1,7 @@
-@import 'core/settings';
+@import "core/variables";
+@import "layouts/hero";
 
 body {
-	background: url('../images/logo-adalab-80px.png') center center no-repeat $color-white;
-	height: 100vh;
+	margin: 0;
+	padding: 0;
 }
