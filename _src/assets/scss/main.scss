@@ -1,9 +1,16 @@
 @import "core/variables";
+@import "core/mixin.scss";
 @import "layouts/header";
 @import "layouts/hero";
+@import "layouts/content";
 
 
 body {
 	margin: 0;
 	padding: 0;
+}
+
+.wrapper {
+	box-sizing: border-box;
+	padding: 0 15px;
 }

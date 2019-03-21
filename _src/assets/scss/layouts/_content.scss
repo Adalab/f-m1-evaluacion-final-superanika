@@ -1,0 +1,35 @@
+.content_small_subtitle {
+    color: $color-lightblue;
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;
+    line-height: 30px;
+    margin-top: 30px;
+}
+.content_title {
+    @include title-style();
+}
+.content_text {
+    @include text-style();
+    color: #4a4a4a;
+    margin: 15px 0 30px 0;
+}
+.content_button {
+    display: inline-block;
+    box-sizing: border-box;
+    width: 76px;
+    height: 45px;
+    background-color: $color-white;
+    border: 2px solid $color-orange;
+    border-radius: 22.5px;
+    margin-bottom: 45px;
+    text-decoration: none;
+    color: $color-orange;
+    font-family: "Roboto", sans-serif;
+    font-size: 20px;
+    text-align: center;
+    line-height: 20px;
+    padding: 10px;
+
+
+
+}
