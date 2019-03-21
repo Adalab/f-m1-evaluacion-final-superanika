@@ -1,0 +1,14 @@
+.menu_button {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 44px;
+    height: 44px;
+    background-color: $color-blue;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+.burguer {
+    width: 16px;
+}
