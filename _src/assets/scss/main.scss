@@ -3,14 +3,10 @@
 @import "layouts/header";
 @import "layouts/hero";
 @import "layouts/content";
+@import "layouts/footer";
 
 
 body {
 	margin: 0;
 	padding: 0;
-}
-
-.wrapper {
-	box-sizing: border-box;
-	padding: 0 15px;
 }
