@@ -1,5 +1,8 @@
 .main_content {
     padding: 0 15px;
+    @media all and (min-width: 768px) {
+        padding: 0 39px;
+    }
 }
 .content_small_subtitle {
     color: $color-lightblue;
@@ -10,11 +13,19 @@
 }
 .content_title {
     @include title-style();
+    @media all and (min-width: 768px) {
+        font-size: 26px;
+        line-height: 45px;
+    }
 }
 .content_text {
     @include text-style();
     color: #4a4a4a;
     margin: 15px 0 30px 0;
+    @media all and (min-width: 768px) {
+        font-size: 20px;
+        margin: 30px 0 30px 0;
+    }
 }
 .content_button {
     display: inline-block;
@@ -32,7 +43,10 @@
     font-weight: 500;
     text-align: center;
     line-height: 2.25;
-  
+    @media all and (min-width: 768px) {
+        width: 91px;
+        margin-bottom: 60px;
+    }
 }
 .related_content {
     background-color: $color-superlightblue;
@@ -41,12 +55,21 @@
     flex-direction: column;
     justify-content: center;
     align-content: center;
+    @media all and (min-width: 768px) {
+        padding: 0 39px;
+
+    }
 }
 .related_content_title {
     margin-top: 0;
     padding-top: 30px;
     @include title-style();
     text-align: center;
+    @media all and (min-width: 768px) {
+        font-size: 26px;
+        line-height: 45px;
+        margin-bottom: 45px;
+    }
 }
 .related_content_wrapper {
     box-sizing: border-box;
@@ -55,13 +78,26 @@
     flex-direction: column;
     justify-content: center;
     align-content: center;
+    @media all and (min-width: 768px) {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        grid-gap: 27.7px;  
+        margin:0;
+    }
 }
 .cont_subtitle {
     @include subtitle-style();
+    @media all and (min-width: 768px) {
+        margin-top: 0;
+    }
 }
 .related_text {
     @include text-style();
     text-align: center;
+    @media all and (min-width: 768px) {
+        font-size: 20px;
+    }
 }
 .related_content_button {
     width: 184px;
@@ -77,8 +113,31 @@
     font-weight: 500;
     margin-bottom: 60px;
     align-self: center;
+    @media all and (min-width: 768px) {
+        margin: 30px auto 60px;
+        width: 210px;
+        grid-column: 2/3;
+        grid-row: 2/3;
+
+    }
 }
 .cont_common {
     margin-bottom: 45px;
+    @media all and (min-width: 768px) {
+        width: 212.3px;
+        margin: 0;
+    }
+}
+
+@media all and (min-width: 768px) {
+    .cont_1 {
+        grid-column: 1/2;
+    }
+    .cont_2 {
+        grid-column: 2/3;
+    }
+    .cont_3 {
+        grid-column: 3/4;
+    }
 }
 
