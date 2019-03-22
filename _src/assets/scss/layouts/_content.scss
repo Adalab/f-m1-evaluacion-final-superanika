@@ -6,7 +6,6 @@
     @media all and (min-width: 1200px){
        padding: 0 275px;
     }
-
 }
 .content_small_subtitle {
     color: $color-lightblue;
@@ -18,7 +17,6 @@
         font-size: 16px;
         margin: 60px 0 0 0;
     }
-
 }
 .content_title {
     @include title-style();
