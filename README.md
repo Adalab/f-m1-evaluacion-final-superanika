@@ -1,5 +1,5 @@
 ¡Hola! Soy Ana y este es mi ejercicio final del módulo 1 de Adalab.
-El diseño nos ha venido dado y yo he tenido que crear el cógido HTML y los estilos para conseguir lo que veis aqui.
+El diseño nos ha venido dado y yo he tenido que crear el código HTML y los estilos para conseguir lo que veis aqui.
 
 Para poder descargarte mi proyecto tienes que clonarlo con el siguiente enlace:
 
