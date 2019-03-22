@@ -21,7 +21,7 @@
     align-content: center;
     box-sizing: border-box;
     @media all and (min-width: 768px) {
-        padding: 0 39px 45px;
+        padding: 0 39px;
     }
     @media all and (min-width: 1200px){            
         padding: 0 370px;
@@ -42,7 +42,7 @@
 }
 .menu_common {
     padding: 0;
-    @media all and (min-width: 1200px){            
+    @media all and (min-width: 768px){            
         margin-bottom: 45px;
     }
 
