@@ -11,7 +11,21 @@
     top: -24px;
     left: 50%;
     transform: translateX(-50%); 
+    &:hover {
+        animation-name: up;
+        animation-duration: 1.5s;
+        animation-timing-function: ease-in-out;
+        animation-iteration-count: infinite;
+    }
 }
+@keyframes up {
+   0% {
+       top: 0;
+   }
+    100% {
+       top: -48px;
+   }
+  }
 .footer_wrapper {
     width: 100vw;
     background-color: $color-darkblue;
@@ -27,7 +41,6 @@
         padding: 0 370px;
     }
 }
-
 .menu_link {
     @include link-style();
     @media all and (min-width: 768px) {
@@ -45,7 +58,6 @@
     @media all and (min-width: 768px){            
         margin-bottom: 45px;
     }
-
 }
 .footer_menu {
     margin-bottom: 30px;
@@ -65,7 +77,6 @@
     font-size: 14px;
     color: $color-orange;
 }
-
 @media all and (min-width: 768px) {
     .footer_nav {
         display: grid;
