@@ -22,7 +22,7 @@
 @mixin link-style {
     font-family: "Roboto", sans-serif;
     font-size: 16px;
-    color: $color-white;
+    color: $color-black;
     text-transform: uppercase;
     text-align: center;
     line-height: 30px;
@@ -32,6 +32,6 @@
     font-family: "Roboto", sans-serif;
     font-size: 14px;
     line-height: 30px;
-    color: $color-white;
+    color: $color-black;
     text-align: center;
 }
